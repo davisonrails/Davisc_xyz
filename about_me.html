@@ -1,4 +1,3 @@
-<!--Hello Stanford, I figured you'd be here. I used MDBoostrap for the basic layout but all the styling I did myself in the CSS files. Thanks for browsing.-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Davis Cover</title>
+    <title>Davis Cover: About</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -15,7 +14,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
 </head>
 
 <body>
@@ -30,11 +29,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about_me.html">About</a>
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about_me.html">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -54,10 +53,40 @@
 <!--End of Navbar-->
     
 <!--Actual Content Here-->
-<div class="container-fluid" id="intro">
-    <h1>Hello</h1>
-    <p>I'm Davis</p>
-    <a href="about_me.html" class="btn btn-primary">See more Here</a>
+<div class="container-fluid" id="aboutme">
+    <h2>What I Do</h2>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img class="img-fluid" src="./pictures/jackie.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Film</h4>
+                <p class="card-text">Check my reel below.</p>
+                <a href="reel.html" class="btn btn-primary">Reel</a>
+            </div>
+            </div>    
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="img-fluid" src="pictures/guitar.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Music</h4>
+                <p class="card-text">Check my portfolio below.</p>
+                <a href="music.html" class="btn btn-primary">Portfolio</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="img-fluid" src="pictures/computer.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Code</h4>
+                <p class="card-text">Check my projects out below.</p>
+                <a href="code.html" class="btn btn-primary">Projects</a>
+            </div>
+            </div>
+        </div>
+    </div>
 </div>
 
     <!-- SCRIPTS -->

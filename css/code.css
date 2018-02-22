@@ -1,0 +1,163 @@
+/* Your custom styles */
+
+
+#label {
+    
+    text-align: center;    
+} 
+
+.navbar {
+    background-color: transparent;
+}
+
+body {
+    background-image: url("https://i.imgur.com/SvnuN4M.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 250px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+p {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.row {
+    width:  100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+.row {
+    width: 80%;
+}
+
+.row h3 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.row p {
+    font-size: 20px;
+}
+
+.first {
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.second {
+    margin: 10px;
+    background-color: white;
+     border-radius: 20px; 
+}
+
+.third {
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.btn {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+.ux {
+    margin: 0 auto;
+    margin-top: -140px;
+    color: white;
+    text-align: center;
+}
+
+.ux h4 {
+    font-size: 40px;
+}
+
+.ux a {
+    color: cadetblue;
+}
+
+.ux p {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 820px) {
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    html {
+        height: 1240px;
+        text-align: center;
+    }
+    
+    .card {
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .title {
+        margin-top: -60px;
+    }
+    
+    .title p {
+        font-size: 20px;
+    }
+    
+    .row {
+        margin-top: -20px;
+    }
+    
+    .row h3 {
+        font-size: 20px;
+    }
+    
+    body {
+        height: 1000px;  
+    } 
+    
+    .btn {
+        margin-top: 90px;
+    }
+    
+    .ux {
+        margin: 0 auto;
+        margin-top: -60px;
+        color: white;
+        text-align: center;
+    }
+
+    .ux h4 {
+        font-size: 20px;
+    }
+
+    .ux a {
+        color: cadetblue;
+    }
+
+    .ux p {
+        font-size: 10px;
+    }
+    
+}
